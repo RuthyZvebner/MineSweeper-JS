@@ -1,0 +1,35 @@
+body {
+  
+  background-image: url("image/Background_Game.png");
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  margin-top: 39vh;
+  background-repeat: no-repeat;
+  
+}
+.form
+{
+  text-align: center;
+  background-image: url("image/square.png");
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  gap: 2vh;
+  width:30%;
+  border: 2px solid black;
+  border-radius: 3%;
+}
+.input
+{
+  margin: 5%;
+  border: 2px solid black;
+  background-color: rgb(242, 245, 246);
+  padding: 4%;
+}
+h1{
+   font-size: 4vh;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
